@@ -1,0 +1,12 @@
+#quemSomos>h2 {
+    text-align: center;
+    color: #132235;
+}
+#quemSomos>hr {
+	width: 100vh;
+    border: 1px solid rgb(3, 3, 3);
+}
+#quemSomos>p{
+    text-align: center;
+}
+

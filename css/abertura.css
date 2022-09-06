@@ -1,0 +1,25 @@
+#inicio {
+    background-color: #60BFB9;
+   
+}
+#inicio>h2 {
+    text-align: center;
+    color: #132235;
+}
+#inicio>hr {
+	width: 100vh;
+    border: 1px solid rgb(3, 3, 3); 
+} 
+#inicio>p{
+    text-align: center;
+}
+#imagens {
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgClass {
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+  }
+

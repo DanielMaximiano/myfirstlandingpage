@@ -1,0 +1,54 @@
+#email {
+	
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#message {
+	width: 100%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#enviar {
+	width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #132235;
+    background-color: #132235;
+    color: #fff;
+    font-size: 20px;
+    float: right;
+}
+#enviar:hover {
+	background-color: #182A42;
+	border: 1px solid #182A42;
+}
+.grupoInput {
+    width: 70%;
+    padding: 10px;
+}
+.messageError {
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 5px;
+    width: 80%;
+    font-size: 30px;
+} 
+.messageSuccess {
+    color: white;
+    background-color: green;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+    padding: 5px;
+    width: 80%;
+    font-size: 30px;
+}

@@ -1,0 +1,57 @@
+/* fazendo assim vou otimizar o código */
+.pages { 
+	background-color: #6ddad3;
+    color: #132235;
+	height: 100vh; 
+}
+#faleConosco {
+	background-color: #60BFB9; /*https://color.adobe.com/pt/create/color-wheel, coloquei sombras */
+}
+#faleConosco>h2 {    /* o sinal de >(maior) é para pegar o próximo elemento html dentro do primeiro seletor */
+	text-align: center;
+  color: #132235;
+} 
+#faleConosco>hr {
+	width: 50vh;
+    border: 1px solid #132235;
+}
+section {
+    padding: 1px 30px;
+	padding-top: 150px;
+}
+#formContatos {
+	display: flex;
+	margin-top: 100px;
+}
+#formContatos>hr {
+    border: 1px solid #132235;
+    height: 60vh;
+}
+#contatos { /* # é para id ---- .(ponto) para classe */
+	text-align: center;
+	display: block;
+	width: 50%;
+}
+#contatos>h4 {
+    margin-top: 45px;
+    font-size: 35px;
+}
+#contatos>p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+#faleConosco {
+	background-color: #60BFB9; /*https://color.adobe.com/pt/create/color-wheel, coloquei sombras */
+}
+#formContainer {
+	display: block;
+   	width: 50%;
+}
+.lgpd {
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>F4Life</title>
+
+		<link rel="stylesheet" href="css/reset.css"> <!-- limpa o espacamento em branco-->
+		<link rel="stylesheet" href="css/cabecalho.css">
+		<link rel="stylesheet" href="css/abertura.css">
+		<link rel="stylesheet" href="css/quem_somos.css">
+		<link rel="stylesheet" href="css/fale_conosco.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="css/formulario.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script src="index.js"></script>
+	</head> 
+	<body>
+		<header class="comeco" >
+				<img src="img/logo_f4life.png" alt="Logo da F4Life">
+				<nav>
+					<a href="#inicio">Início</a>	
+					<a href="#quemSomos">Quem Somos</a><!-- <a href="#...> Pula para conteúdo indicado  -->  
+					<a href="#faleConosco">Fale Conosco</a>		
+				</nav>
+			</header>
+		<section class="pages" id="inicio">
+		<h2>Moradia para Universitários</h2><hr>
+		<p>O sucesso da sua formação também depende de ter uma moradia apropriada para o seu bolso e deslocamento.</p>
+			<div>
+				<ul id="imagens">
+					<li>
+						<img class="imgClass" src="img/1.png" alt="Universitários segurando placa da F4Life">
+					</li>
+					<li>
+						<img class="imgClass" src="img/7.png" alt="Universitários segurando placa da F4Life">
+					</li>
+					<li>
+						<img class="imgClass" src="img/8.png" alt="Universitários segurando placa da F4Life">
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="pages" id="quemSomos">
+			<h2>Quem Somos</h2><hr><br>
+			<p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias.</p><br>
+			<p>A empresa também realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação.</p>
+			<div>
+				<ul id="imagens">
+					<li>
+						<img class="imgClass" src="img/6.png" alt="Homem fazendo reforma de casa">
+					</li>
+					<li>
+						<img class="imgClass" src="img/5.png" alt="Janelas e varandas de apartamento">
+					</li>
+					<li>
+						<img class="imgClass" src="img/3.png" alt="Imagem de uma kitnet, sendo quarto integrado com a sala.">
+					</li>
+  				</ul>
+			</div>
+		</section>
+		<section class="pages" id="faleConosco">			
+			<h2>Fale Conosco</h2><hr>				
+			<div id="formContatos">
+				<div id="formContainer">
+					<form>
+						<fieldset class="grupoInput">
+							<legend>Email</legend>
+							<input type="email" name="email" id="email" placeholder="seu@email.com"/>
+						</fieldset>
+						<fieldset class="grupoInput">
+							<legend>Mensagem</legend>
+							<textarea name="message" id="message" rows="10"></textarea>
+						</fieldset>
+					</form>
+					<fieldset class="grupoInput">
+						<button onclick="enviarInformacoes()" id="enviar">Enviar</button>
+					</fieldset>
+					<p class="messageError" style="display: none;"></p> <!-- display: none; faz o elemento ficar invisível // display: block; fica visível -->   <!-- messageError no html é um elemento no javaScript reconhece como objeto-->
+					<p class="messageSuccess" style="display: none;"></p> <!-- nesse caso o style está sendo usado como atributo do elemento p -->
+					<p class="lgpd">Ao preencher o formulário, concordo em ser contatado sobre o conteúdo da mensagem.</p>
+					<p class="lgpd">Ao informar meus dados, concordo com a Política de Privacidade. Você pode alterar suas permissões de comunicação a qualquer tempo.</p>
+			    </div>
+				<hr>
+				<div id="contatos">
+					<h4>Email</h4>	
+					<p>f4life@contato.com</p>
+					<h4>Telefones para Contato</h4>
+					<p>Tel: +55 44-00999-7878</p>
+					<p>Whatsapp: +55 44-00888-9898</p>
+				</div>
+			</div>
+		</section>
+		<footer> 
+			<div id="redeSociais">
+			<a href="https://twitter.com/" target="_blank" rel="noreferrer"><img src="img/twitter.png" alt="Twitter" class="logos"></a>
+			<a href="https://facebook.com/" target="_blank" rel="noreferrer"><img src="img/facebook.png" alt="Facebook" class="logos"></a>
+			<a href="https://instagram.com/" target="_blank" rel="noreferrer"><img src="img/instagram.png" alt="Instagram" class="logos"></a>
+			<!-- <a target="_blank" rel="noreferrer" href="https://twitter.com/"><img src="twitter.png" alt="Twitter"></a> 
+			Esse aqui faz com que abra o link abra em uma nova aba no navegador -->
+			</div>
+			<p class="copyright">&copy; Copyright F4Life - 2022
+		</footer> 
+	</body>
+</html>

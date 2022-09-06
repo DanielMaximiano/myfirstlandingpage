@@ -1,0 +1,23 @@
+footer {
+	text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 75px;
+}
+.logos {
+	height: 45px;
+	border-radius: 50px; /* superior esquerdo e inferior direito | superior direito e inferior esquerdo */
+}
+#redeSociais>a {
+    margin: 0px !important; /* o important vai dizer que essa declaração vai ficar com prioridade */
+}
+.copyright {
+	text-align: center;
+    color: #faf6f6;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
